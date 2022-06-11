@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div class="main-block">
+      <div class="left-part">
+        <i class="fas fa-envelope"></i>
+        <i class="fas fa-at"></i>
+        <i class="fas fa-mail-bulk"></i>
+      </div>
+      <form action="/" method="POST" enctype="multipart/form-data">
+        <pre>
+          <h1>Upload Image                       <a href="/new">See Uploaded</a> </h1>
+        </pre>
+        <div class="info">
+          <input type="text" id="name" placeholder="Name" class="fname"	value="" name="name" required>
+          <p>Description</p>
+          <textarea id="desc" name="desc" value="" rows="4" placeholder="About Image" required></textarea>
+          <input type="file" id="image" name="image" value="" required>
+        </div>
+        <button type="submit" >Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

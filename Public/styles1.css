@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    background-color:#1c87c9 ;
+    }
+
+.All{
+    list-style: none;
+  padding: 0;
+  display: grid;
+  margin: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  grid-gap: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    background-color: whitesmoke;
+    border: 25px solid #1c87c9 ;
+}
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 70%;
+    object-fit: contain;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .desc{
+    font-size: 16px;
+  }
