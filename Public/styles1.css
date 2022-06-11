@@ -12,7 +12,7 @@ html, body {
     }
 
 .All{
-    list-style: none;
+  list-style: none;
   padding: 0;
   display: grid;
   margin: 50px;
