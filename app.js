@@ -18,7 +18,7 @@ app.use(bodyParser.json())
   
 app.set("view engine", "ejs");
 
-mongoose.connect(process.env.MONGO_URL, err => {
+mongoose.connect("elated-sundress-jayCyclicDB", err => {
         console.log('connected')
     });
 
